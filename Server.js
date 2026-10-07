@@ -46,7 +46,7 @@ Cover Letter:
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        model: "tinyllama",  // ✅ Using lightweight, low-RAM model
+        model: "tinyllama",  
         prompt: prompt,
         stream: false
       })
